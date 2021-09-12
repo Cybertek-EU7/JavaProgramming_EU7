@@ -34,10 +34,22 @@ public class PrimitivesReview {
 		System.out.println(ch1+ch2); //A%  65 + 37 = 102  
 		// acts like addition 
 		
+		System.out.println("-------------------------------------------");
 		
+		boolean isEmployed = true;
+		boolean isMarried = true;
+		boolean r1 = false;
+		boolean r2 = true; //
+		System.out.println(r1);
+		System.out.println(r2);
 		
+		System.out.println("-------------------------------------------");
 		
+		String name = "EU7"; // collection of Chars
 		
+		String sentence = " is doing GREAT JOB ! ";
+		
+		System.out.println( name + sentence + r2); // not addition -- concatination
 		
 		
 		
