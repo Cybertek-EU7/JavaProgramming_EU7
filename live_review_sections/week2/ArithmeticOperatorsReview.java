@@ -32,10 +32,22 @@ public class ArithmeticOperatorsReview {
 		// totalTax = salary*taxrate
 		// calculate how much I will make a year after Tax deducted
 		
+		// annual salary before Tax
+		int salary = (48*weeklyHour)*hourlyRate;
+		System.out.println("Your salary before tax is " + salary );
 		
+		// yearly Tax that I have to pay
+		double totalTax = salary * taxRate;
+		System.out.println("Total tax is "+ totalTax);
 		
+		// My salary after I pay my tax to my nice government
+		double salaryAfterTax = salary - totalTax;
+		System.out.println("My salary after Tax is "+ salaryAfterTax);
 		
+		// how much I am making every month after tax reduction
 		
+		double eachMonthSalary = salaryAfterTax / 12 ;
+		System.out.println("I make every month after tax "+ eachMonthSalary);
 		
 		
 	}
