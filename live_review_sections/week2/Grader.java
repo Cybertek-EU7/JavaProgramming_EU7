@@ -16,8 +16,8 @@ public class Grader {
 		
 		System.out.println("Enter the student name");
 		String name = input.next();
-	
 		
+				
 		// if it A, B   100-90:A, 80-89: B, 70-79:C, 60-69:D, rest F
 		
 
