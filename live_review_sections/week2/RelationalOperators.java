@@ -10,5 +10,12 @@ public class RelationalOperators {
 		
 		System.out.println(15 >= 15);
 		
+		System.out.println("---------Question from Discord-------------");
+		
+		int b = 2;
+        boolean res = ++b == 2 || --b == 2 && --b == 2; // 
+        System.out.println(res);
+		
+		
 	}
 }
