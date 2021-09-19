@@ -1,10 +1,33 @@
 package week2;
 
+import java.util.Scanner;
+
 public class DivisionAndRemainderPractice {
 
 	public static void main(String[] args) {
+		
+	/*
+	 * Scanner class intro:
+	 * for output = System.out.println()
+	 * for input from console: Scanner	
+	 */
+		
+	//1. Create your scanner object, and import utility package
+		// necessary for using that class
+		String name; // declaring a variable
+		name = "Oscar"; // initiliaze, creating  "new Scanner(System.in)"
+		String name2 = "Java";
+		Scanner input = new Scanner(System.in);// new keyword for creating object
+		
+	// 2. prompt the user for the input
+System.out.println(" Please provide me the seconds that you want to convert");
 	
-	int inputSeconds = 3910;
+// 3. Get the input from console
+	int inputSecondFromConsole = input.nextInt();
+// we use next/nextLine with String inputs			
+			
+			
+	int inputSeconds = inputSecondFromConsole; //manually or Hard coded way
 	int minutes, hours;
 	// converted to XX hours XX minutes XX seconds
 	/*
