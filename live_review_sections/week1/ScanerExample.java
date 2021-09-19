@@ -5,16 +5,25 @@ import java.util.Scanner;
 public class ScanerExample {
 public static void main(String[] args) {
 	
+// output console
 	System.out.println("Output");
-	// how do we input in JAVA
+
+//input from console: we use Scanner class and object we created that class
 	
-	Scanner input = new Scanner(System.in);
+	// 1. create your scanner object
+	Scanner input = new Scanner (System.in); 
 	
-	System.out.println("What is your dream car make?");
+	// 2. prompt user
 	
-	String make = input.next();
+	System.out.println("Put your name: ");
+
+	//3. get the input
 	
-	System.out.println("your dream car is: "+ make);
+	String name = input.next(); // nextInt(), nextDouble()
+	
+	//4. Use the value you got
+	
+	System.out.println("your name is: "+ name);
 	
 	
 }
