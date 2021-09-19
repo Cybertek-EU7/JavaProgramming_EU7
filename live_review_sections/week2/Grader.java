@@ -28,13 +28,13 @@ public class Grader {
 		if (grade<=100 && grade>=90) {
 			System.out.println(name + "'s grade is A");
 		}
-		if (grade<90 && grade>=80) {
+		else if (grade<90 && grade>=80) {
 			System.out.println(name + "'s grade is B");
 		}
-		if (grade<80 && grade>=70) {
+		else if (grade<80 && grade>=70) {
 			System.out.println(name + "'s grade is C");
 		}
-		if (grade<70 && grade>=60) {
+		else if (grade<70 && grade>=60) {
 			System.out.println(name + "'s grade is D");
 		}
 		else {
