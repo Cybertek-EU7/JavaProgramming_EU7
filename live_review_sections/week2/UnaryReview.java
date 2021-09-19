@@ -29,6 +29,32 @@ public class UnaryReview {
 	
 	System.out.println(!(10>5));  
 		
+	// question from Discord
+	int a1 = 12;
+
+    if(++a1>12) {  // a1 becomes 13 at this line, if - part
+        System.out.println(" a in if part = " + a1); }
+
+
+    else {
+        System.out.println("a in else part = " + a1);
+
+
+    }
+    
+    int a2 = 12;
+
+   if(a2++>12) {  // a2 first compares than increase next line, in memory a2 12
+        System.out.println(" a in if part = " + a2); }
+
+
+    else {
+        System.out.println("a in else part = " + a2);
+
+
+    }
+    
+	
 	}
 
 }
