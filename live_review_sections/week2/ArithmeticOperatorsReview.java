@@ -24,6 +24,20 @@ public class ArithmeticOperatorsReview {
 		
 		System.out.println("result is " + result );
 		
+		// Salary Calculation
+		int hourlyRate = 60; // in dollars
+		double taxRate = 0.3; //  deduct from yearly salary
+		int weeklyHour = 40; 
+		// you are working 48 weeks a year
+		// totalTax = salary*taxrate
+		// calculate how much I will make a year after Tax deducted
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
