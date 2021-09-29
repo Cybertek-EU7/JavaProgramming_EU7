@@ -1,4 +1,4 @@
-**Week 3 Note** 
+**Week 2 Note** 
 ---
 1. [Conditional Statements](#conditional-statements)
 	1. [if statement](#if-statement)
