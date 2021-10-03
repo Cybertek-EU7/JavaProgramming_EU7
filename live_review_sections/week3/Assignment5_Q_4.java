@@ -28,9 +28,16 @@ public class Assignment5_Q_4 {
 		
 		
 		while(product<100) {
-		
+			
 			System.out.println("Enter a number : ");
 			int number = object.nextInt();
+			
+			if (number*10>100) {
+				System.out.println("Invalid Number Range");
+				continue;      // I am cutting the execution at this line
+			}
+			
+			
 			product+=number*10;
 			System.out.println("Product value is "+ product);
 		}
