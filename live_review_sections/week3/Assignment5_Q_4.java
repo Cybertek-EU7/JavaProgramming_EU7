@@ -23,9 +23,11 @@ public class Assignment5_Q_4 {
 		int product;  // Declaring a variable
 		product = 0; // initialization 
 		
+		// What if user enters a bigger number than 10
 		
 		
 		while(product<100) {
+		
 			System.out.println("Enter a number : ");
 			int number = object.nextInt();
 			product+=number*10;

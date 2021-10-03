@@ -22,6 +22,25 @@ public class WhileLoopExamples {
 		
 		
 		
+		System.out.println("------DO WHILE -------");
+		
+		int numberOne = 10 ;
+		int numberTwo = 300;
+		
+		int total = 0;
+		
+		do {
+			
+			total += numberOne + numberTwo ; // += shorthand operator 
+		
+			// total = total + numberOne + numberTwo
+			
+		}while (total < 1000); // total is my condition variable
+		
+		System.out.println(total);
+		
+		
+		
 	}
 	
 	
