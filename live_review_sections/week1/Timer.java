@@ -15,9 +15,9 @@ public class Timer {
                 break;
             }
             for (int z=59; z >=0 ; --z) {
-                System.out.print("\r"+ (i-1)+" minutes and "+z+" seconds left");
+                System.out.print("Remaining Time: "+ (i-1)+" minutes and "+z+" seconds left\r");
                 Thread.sleep(1000);  // pauses the execution of the code for given milli seconds
-                System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n");
+             
             }
         }
 
