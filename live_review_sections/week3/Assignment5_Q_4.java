@@ -24,6 +24,7 @@ public class Assignment5_Q_4 {
 		product = 0; // initialization 
 		
 		// What if user enters a bigger number than 10
+		// I want to warn the user to put the number again
 		
 		
 		while(product<100) {
