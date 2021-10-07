@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="live_review_sections"/>
+	<classpathentry kind="src" path="ReplitSolutions"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
