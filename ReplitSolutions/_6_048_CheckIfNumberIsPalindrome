@@ -1,0 +1,54 @@
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    int num = scan.nextInt();
+    isPalindrome(num);
+  }
+  
+  public static void isPalindrome(int num){
+    //WRITE YOUR CODE HERE
+    
+    
+    int x = num;
+    	// isPalindrome() that will check if number is a palindrome
+				
+		
+		
+		int n = 1;     
+		int i = 0;
+		int dvider = 10;
+		boolean result = true;
+		
+		
+		
+		
+		while(x%n != x) { // we are trying to find 
+			              //the number has how many decimals
+			
+			
+			n *= 10;      //in each iteration go and check one upper decimal
+			++i;			//creates a value to register it's decimal size
+		}
+		
+		i /= 2;     // as we will check the numbers from both sides
+					// the next loop should be half of the decimal size
+		
+		for(int k = 0; k < i; ++k ) { 
+			
+			int a = (((x%n)/(n/dvider)))/(dvider/10); // finds the first number from left side
+			int b= ((x%dvider)/(dvider/10)); // finds the last number from right side
+			if(a != b){ // compares them
+				result = false; // if they are not equal it is not palindrome
+				break;
+			}
+			dvider *= 10;
+			n /= 10;
+		}
+		System.out.println(result);
+		
+	
+    
+  }
+}
