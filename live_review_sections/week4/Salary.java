@@ -21,15 +21,15 @@ public class Salary {
 		taxRate = t;
 	}
 	
-	public double salary() {
+	public double salary() {      // instance methods
 		return  rate*weeklyHour*52;
 	}
 	
-	public double totalTax () {
+	public double totalTax () {   // instance methods
 		return salary()*taxRate;
 	}
 	
-	public double salaryAfterTax() {
+	public double salaryAfterTax() {   // instance methods
 		return salary()-totalTax();
 	}
 	
