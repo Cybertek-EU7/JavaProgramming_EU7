@@ -16,13 +16,18 @@ public class Circle {
 	public double perimeter() {
 		return 2*radius*Pi;
 	}
+
 	
 	// toString() method
+	
 	
 	public String toString() {
 		return "Radius: "+radius
 				+ ", Area: "+ area()
 				+ ", Perimeter: "+ perimeter();
 	}
+	
+	
+	
 	
 }
