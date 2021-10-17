@@ -13,6 +13,12 @@ public class LocalVsInstanceTest {
 		obj.a=10;
 		System.out.println(obj.a);
 		
+		
+		for (int i = 0; i<10; i++) {     // i is local to for loop
+			System.out.println(i+" ");
+		}
+		//  System.out.println(i);  local variable can NOT print here
+		
 	}
 
 }
