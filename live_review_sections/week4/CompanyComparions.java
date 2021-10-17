@@ -22,6 +22,7 @@ public class CompanyComparions {
 		
 		System.out.println(company2.companyName);
 		
+		
 	}
 	
 	

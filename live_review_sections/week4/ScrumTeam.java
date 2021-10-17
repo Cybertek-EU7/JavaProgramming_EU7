@@ -13,6 +13,8 @@ public class ScrumTeam {
 		return developers*developerSalary+testers*testerSalary;
 	}
 	
+	
+
 	public double returnOfInvestment() {
 		return companyRevenue/costOfTheTeam();
 	}
@@ -22,6 +24,10 @@ public class ScrumTeam {
 		developers = devNums;
 		testers = tesNums;
 	}
+
+
+
+
 	
 	
 	
