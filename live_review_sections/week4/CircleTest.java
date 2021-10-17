@@ -14,7 +14,15 @@ public class CircleTest {
 		System.out.println(circle1.area()); // I call the methods with the object name
 		System.out.println(circle1.perimeter());
 		
+		Circle circle2 = new Circle();
+		circle2.radius=10.0;
+		System.out.println(circle2.area());
+		System.out.println(circle2.perimeter());
 		
+		System.out.println("-----------------------------");
+	//	System.out.println(circle1); // the address of the reference variable in the Stack Memory
+		
+		System.out.println(circle1.toString());
 		
 	}
 
