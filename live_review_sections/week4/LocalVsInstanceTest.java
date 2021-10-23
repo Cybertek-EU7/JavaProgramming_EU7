@@ -10,10 +10,11 @@ public class LocalVsInstanceTest {
 		obj.showDifference();
 		
 		System.out.println("------instance variable-------");
-		obj.a=10;
+		 obj.a=10;
 		System.out.println(obj.a);
+	
 		
-		
+	
 		for (int i = 0; i<10; i++) {     // i is local to for loop
 			System.out.println(i+" ");
 		}
