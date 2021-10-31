@@ -13,6 +13,8 @@ public class S08_CustomStringMethodsStaticWay {
 		System.out.println("----duplicate-----");
 		System.out.println("Removing duplicate chars : "+ removeDuplicate(s));
 		
+		System.out.println("-----------frequency of chars-----");
+		System.out.println("this is the list : "+ frequencyOfChars(s));
 		
 	}
 
@@ -69,10 +71,33 @@ public class S08_CustomStringMethodsStaticWay {
 			result += each;
 			}
 		}
-		
 		return result;
-		
 	}
+	
+	
+	public static String frequencyOfChars(String str) {
+		// Task 4: FrequencyOfChar()  str = "aabcccd"; --- > a:2 | b:1 | c:3 | d:1
+		
+		// char 'a' ---65    b:66 
+		
+		// result += ch + " : "+ frequency();
+		String result = "";
+		for (int i = 0; i < str.length();i++ ) {
+			
+			char each = str.charAt(i);
+		
+			if (!result.contains(""+each)) {
+				result+=each+" : "+frequency(str,each)+" | ";
+			}
+		}
+		return result.substring(0,result.length()-3);
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 }

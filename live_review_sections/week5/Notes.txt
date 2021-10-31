@@ -60,8 +60,16 @@ String
 	
 	Task 3: removeDuplicate   box result = a b     " aaaa , b, cccc, sss"  contains
 	
+	Task 4: FrequencyOfChar()  str = "aabcccd"; --- > a:2 | b:1 | c:3 | d:1
 	
-	
+	Task 5: String sentence "       "
+			String word
+			
+I am an experienced tester. As a tester I can automate browsers. I can test API and DB
+"I am": is it equal to "test"  NO
+" am ": is it equal to "test"  NO
+for loop which will iterate   str.substring(i,i+4)
+word = test (length of this word is 4)
 	
 	
 	
