@@ -46,7 +46,11 @@ public class S03_StringMethodsPractice {
 		}
 		
 		
-		
+		// substring method: this one takes index (begin,end)
+		// overloaded substring method which just takes begining index
+		System.out.println("-----substring method-----");
+		String word = message.substring(0, 4);
+		System.out.println(word);
 		
 	}
 
