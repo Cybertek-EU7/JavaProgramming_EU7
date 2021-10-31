@@ -23,7 +23,7 @@ String
 	
 	indexOf() : this method takes a String and returns it's index
 	
-	length() : takes String as parameter and returns int
+	length() : it is applied to our String and returns int
 	
 	concat() : takes strings and concatinates them
 	
@@ -48,8 +48,14 @@ String
 	String str = JAVA
 				 0123 index number
 				 
-	* Reverse example 			 
-				 
+	* Reverse example 	
+	
+	Task 1: String str;  char c;  frequency(String str, char c) --> int number 
+	str = "aabcccd";
+	char c = 'a'   ---> 2
+			 
+	Task 2 : uniqueCharacters(String str) -- > return me unique characters in string format
+			str = "aabcccd";   ---- bd	 
 				 
 	
 	
