@@ -17,7 +17,7 @@ String
 	
 	3. String Methods for Manipulation:
 	charAt()
-		isEmpty()
+	isEmpty()
 	indexOf()
 	length()
 	concat()

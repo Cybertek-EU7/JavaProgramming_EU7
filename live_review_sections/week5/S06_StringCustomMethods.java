@@ -6,6 +6,7 @@ public class S06_StringCustomMethods {
 	
 	public void setStr(String s) {
 		if (s.isEmpty()) {
+			// isEmpty() returns boolean 
 			return ;      // like break from the loop, same logic
 		}
 		str=s;
@@ -20,6 +21,20 @@ public class S06_StringCustomMethods {
 		}
 		
 		return  reverseResult;
+	}
+	
+	
+	public boolean isPalindrome() {
+		boolean a;
+		
+		str = str.trim();
+		
+		String reversed = reverse();
+		
+		a = reversed.equalsIgnoreCase(str);
+		
+		return a;
+		
 	}
 	
 	

@@ -14,7 +14,11 @@ public class S07_ExamplesWithCustomClassMethods {
 		methods.setStr("");
 		System.out.println(methods.reverse());
 		
+		System.out.println("------Palindrom-----");
 		
+		
+		methods.setStr("   Madam   ");
+		System.out.println(methods.isPalindrome());
 		
 		
 		
