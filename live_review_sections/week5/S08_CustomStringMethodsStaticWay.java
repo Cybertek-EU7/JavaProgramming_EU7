@@ -10,6 +10,9 @@ public class S08_CustomStringMethodsStaticWay {
 		System.out.println("-----unique------");
 		System.out.println("Unique characters in my string is: "+ uniqueCharacters(s));
 		
+		System.out.println("----duplicate-----");
+		System.out.println("Removing duplicate chars : "+ removeDuplicate(s));
+		
 		
 	}
 
@@ -57,11 +60,14 @@ public class S08_CustomStringMethodsStaticWay {
 		
 		for (int i = 0; i< str.length(); i++) {
 			String each = ""+ str.charAt(i);
-			if (result.contains(each)) {
-				continue;
-			}
-			result += each;
+
+	//			if (result.contains(each)) {
+	//				continue;
+	//			}
 			
+			if(!result.contains(each)) {
+			result += each;
+			}
 		}
 		
 		return result;
