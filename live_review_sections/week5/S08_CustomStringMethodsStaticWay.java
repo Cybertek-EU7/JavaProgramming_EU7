@@ -52,5 +52,21 @@ public class S08_CustomStringMethodsStaticWay {
 		return result;
 	}
 	
+	public static String removeDuplicate(String str) {
+		String result = ""; // creating a dummy result value to hold my result object
+		
+		for (int i = 0; i< str.length(); i++) {
+			String each = ""+ str.charAt(i);
+			if (result.contains(each)) {
+				continue;
+			}
+			result += each;
+			
+		}
+		
+		return result;
+		
+	}
+	
 	
 }

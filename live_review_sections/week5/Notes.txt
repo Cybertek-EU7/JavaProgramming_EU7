@@ -58,6 +58,7 @@ String
 			str = "aabcccd";   ---- bd	 
 				 
 	
+	Task 3: removeDuplicate   box result = a b     " aaaa , b, cccc, sss"  contains
 	
 	
 	
