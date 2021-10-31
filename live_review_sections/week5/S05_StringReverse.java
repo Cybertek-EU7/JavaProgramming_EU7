@@ -8,7 +8,7 @@ public class S05_StringReverse {
 					 //0123
 		
 		// creating a dummy string is best practice
-		
+		System.out.println("-----simple reverse------");
 		String reverse = "";
 		
 		reverse += name.charAt(3); // name.length()-1
@@ -18,7 +18,7 @@ public class S05_StringReverse {
 		
 		System.out.println(reverse);
 		
-		
+		System.out.println("------with for loop reverse------");
 		String str = "Java Programming Is Awesome Language";
 		String reverseResult = "";
 		
@@ -32,12 +32,16 @@ public class S05_StringReverse {
 		System.out.println("-----reverse with method--------");
 		
 		String word = "Oscar";
-		System.out.println(reverse(word));
+		System.out.println(reverseOrg(word));
+		
+		System.out.println("---------reversed with custom class method-----");
+	//	String reversedFromClassMethod = S06_StringCustomMethods.reverse(str);
+	//	System.out.println(reversedFromClassMethod);
 		
 		
 	}
 	
-	public static String reverse(String str) {
+	public static String reverseOrg(String str) {
 		
 		String reverseResult = "";
 		
