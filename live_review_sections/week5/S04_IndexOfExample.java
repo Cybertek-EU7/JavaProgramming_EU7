@@ -4,7 +4,7 @@ public class S04_IndexOfExample {
 
 	public static void main(String[] args) {
 				
-		String message = "Java is Awesome!  Akgkf !!  kgfkdls!";
+		String message = "Java is Awesome!  Akgkf !!  AA kgfkdls!";
 		
 		// this method takes a String and returns it's index
 		

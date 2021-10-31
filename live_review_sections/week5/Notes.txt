@@ -29,7 +29,15 @@ String
 	equalsIgnoreCase()
 	trim()
 	contains()
-
+	
+	4. index and the length are two seperate things
+	index starts from ZERO 0 
+	String str = JAVA
+				 0123 index number
+				 
+	* Reverse example 			 
+				 
+				 
 	
 	
 	
