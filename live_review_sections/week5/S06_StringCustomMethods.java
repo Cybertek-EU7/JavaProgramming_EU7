@@ -12,6 +12,8 @@ public class S06_StringCustomMethods {
 		str=s;
 	}
 	
+	
+	// takes the string which is assigned to our object and reverse it
 	public String reverse() {      // I deleted static key word and turned it into instance method
 		
 		String reverseResult = "";
@@ -23,11 +25,13 @@ public class S06_StringCustomMethods {
 		return  reverseResult;
 	}
 	
-	
+	// checks the string which is assigned to our object and returns true or false 
 	public boolean isPalindrome() {
 		boolean a;
 		
-		str = str.trim();
+		str = str.replace(" ", "");
+		
+	//	str = str.trim();
 		
 		String reversed = reverse();
 		

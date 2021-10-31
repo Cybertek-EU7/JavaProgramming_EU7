@@ -20,6 +20,9 @@ public class S07_ExamplesWithCustomClassMethods {
 		methods.setStr("   Madam   ");
 		System.out.println(methods.isPalindrome());
 		
+		methods.setStr("  Never Odd or Even  "); // NeverOddorEven  case insensetive
+		System.out.println(methods.isPalindrome());
+		
 		
 		
 	}
