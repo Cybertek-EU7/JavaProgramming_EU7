@@ -4,8 +4,11 @@ public class S08_CustomStringMethodsStaticWay {
 
 	public static void main(String[] args) {
 	
-		
-		System.out.println("Frequency of my character: " + frequency("aabcccd",'e'));
+		String s = "aabcccd";
+		System.out.println("----frequency-----");
+		System.out.println("Frequency of my character: " + frequency(s,'e'));
+		System.out.println("-----unique------");
+		System.out.println("Unique characters in my string is: "+ uniqueCharacters(s));
 		
 		
 	}
@@ -32,7 +35,22 @@ public class S08_CustomStringMethodsStaticWay {
 		return count;
 	}
 	
-	
+
+	public static String uniqueCharacters(String str) {
+		String result = ""; // creating a dummy result value to hold my result object
+		
+		for (int i = 0; i < str.length() ; i++ ) {
+			
+			// aabcccd
+			
+			char c = str.charAt(i); // a
+			if(frequency(str, c)==1) {
+				result += c;
+			}
+		}
+		
+		return result;
+	}
 	
 	
 }
