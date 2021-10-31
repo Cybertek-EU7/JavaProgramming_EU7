@@ -66,8 +66,13 @@ String
 			String word
 			
 I am an experienced tester. As a tester I can automate browsers. I can test API and DB
-"I am": is it equal to "test"  NO
-" am ": is it equal to "test"  NO
+"I am": is it equal to "test"  NO str.substring(0,4)
+" am ": is it equal to "test"  NO str.substring(1,5)
+"am a": is it equal to "test"  NO str.substring(2,6)
+*
+*
+*
+"test" :  is it equal to "test"  yes 
 for loop which will iterate   str.substring(i,i+4)
 word = test (length of this word is 4)
 	
