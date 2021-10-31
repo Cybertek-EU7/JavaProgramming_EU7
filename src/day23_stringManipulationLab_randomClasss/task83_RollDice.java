@@ -18,7 +18,7 @@ public class task83_RollDice {
 			
 			
 			System.out.println("Rolling the dice....");
-			dice1=rn.nextInt(6)+1; 
+			dice1=rn.nextInt(6); 
 			dice2=rn.nextInt(6)+1;
 			
 			System.out.println("Their values are:");
