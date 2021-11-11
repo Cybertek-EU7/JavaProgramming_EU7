@@ -114,7 +114,7 @@ Another Example :
 
 ```java 
 String season = "summer";
-switch(choice) {
+switch(season) {
 
 	case "spring" :
 		System.out.println("Spring is here!!!");
