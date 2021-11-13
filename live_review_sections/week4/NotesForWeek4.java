@@ -103,8 +103,8 @@ Class: template of an object. It will define attributes (data) and behaviors (ac
 
 Object: an instance of a class
 
-class: Templete of object. where all objects are caming from
-		indicates the attributes and actions/beharios of the object
+class: Template of object. where all objects are coming from
+		indicates the attributes and actions/behaviors of the object
 
 CLASS is a blueprint/template for OBJECTS.
 From CLASS we can create MULTIPLE OBJECTS.
@@ -138,8 +138,8 @@ Local variables vs Instance variables
 	java prioritizes local variables 
 
 
-	toString(): converst the object to String
-				executes automatically wheneever the object is passed to the console
+	toString(): converts the object to String
+				executes automatically whenever the object is passed to the console
 
 
 Scrum Team example, Test Case example
