@@ -28,7 +28,24 @@ for(int i=0; i<items.length; i++) {
 		System.out.println("index of the item : "+ i);
 	}
 }
-		
+
+System.out.println("-----Set a boolean variable true if 'iPad' is found-----");
+	boolean iPadexists=false;
+	for (String item : items ) {
+		if(item.equalsIgnoreCase("iPad")) {
+			iPadexists = true;
+			break;  // to get out of my loop when I find it
+		}
+	}
+	System.out.println("Boolean variable : "+ iPadexists);
+//	System.out.println(Arrays.toString(items).contains("iPad"));
+//	System.out.println(Arrays.toString(items).toLowerCase().contains("IPAD".toLowerCase()));
+
+System.out.println("---print a report of each shopping item ------");
+// shoes  - 99.9 Euros  - #12345	
+	for (int i=0; i<items.length;i++) {
+		System.out.println(items[i]+" - "+ prices[i]+ " Euros - #" +itemIDs[i] );
+	}
 		
 	}
 	
