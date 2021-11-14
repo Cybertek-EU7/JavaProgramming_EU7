@@ -13,7 +13,7 @@ public class A04_HTML_Satus_Codes {
 	Scanner scan = new Scanner (System.in);
 	System.out.println("Tell me the status code you receive from the WebPage");
 	int request = scan.nextInt();
-	System.out.println(responseConverter(request));
+	// System.out.println(responseConverter(request));
 	System.out.println(responseConverterTWO(request));
 		
 	}
@@ -46,13 +46,21 @@ public class A04_HTML_Satus_Codes {
 	
 	
 public static String responseConverterTWO(int request) {
-        
+    String response = "Status code not found";     
+	// 205 : -4
         int[] statusCodes = {200,201,204,400,401,403,404,500};
         String[] responseTypes = {"OK", "Created", "No Content", "Bad Request", "Unauthorized",
                 "Forbidden", "Not Found", "Internal Server Error"};
         
         int num = Arrays.binarySearch(statusCodes, request);
-        return responseTypes[num];     
+        // (-(insertion point) - 1)
+           
+        if(num>=0 && num<statusCodes.length){
+            response = responseTypes[num];
+        }
+
+        return response;
+        
         
     }
 	
