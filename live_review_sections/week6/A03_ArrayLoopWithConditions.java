@@ -30,6 +30,7 @@ public static void main(String[] args) {
     }}
 	
 	// third condition: count the prices which are more than 60, result count
+	System.out.println("-----count the prices which are more than 60------");
 	int count = 0;
 	for(double eachPrice : prices) {
         if(eachPrice>60) {
@@ -38,6 +39,8 @@ public static void main(String[] args) {
     }
 
     System.out.println(count);
+    
+    
 	
 }
 }
