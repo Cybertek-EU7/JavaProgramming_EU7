@@ -6,7 +6,7 @@ public class A08_ReverseArray {
 
 	public static void main(String[] args) {
 		
-		int [] nums = {5, 10 , 4, 100}; // {100,4,10,5}
+		int [] nums = {5, 10 , 4, 100, 150, 23, 76 }; // {100,4,10,5}
 // one way is creating a second empty array 		
 		int [] reversedNums = new int [nums.length];
 				
