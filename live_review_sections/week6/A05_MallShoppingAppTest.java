@@ -46,7 +46,14 @@ System.out.println("---print a report of each shopping item ------");
 	for (int i=0; i<items.length;i++) {
 		System.out.println(items[i]+" - "+ prices[i]+ " Euros - #" +itemIDs[i] );
 	}
-		
+
+System.out.println("------Look for 'Jacket' in the items and print all details--------");	
+for (int i=0; i<items.length;i++) {
+	if(items[i].equals("Jacket")) {  // we are putting our condition
+	System.out.println(items[i]+" - "+ prices[i]+ " Euros - #" +itemIDs[i] );
+	}
+}
+	
 	}
 	
 }
