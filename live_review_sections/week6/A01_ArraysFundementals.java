@@ -1,5 +1,7 @@
 package week6;
 
+import java.util.Arrays;
+
 public class A01_ArraysFundementals {
 
 	public static void main(String[] args) {
@@ -9,7 +11,9 @@ public class A01_ArraysFundementals {
  * 		
  */
 		
-int count = 10;
+int count;
+
+
 String city = "New York";
 String city2 = 	"Ankara";
 String city3 = "London";
@@ -33,7 +37,15 @@ System.out.println("If you want to reach first element of citiesMore : "+ cities
 																	// the index : 2 	
 System.out.println("if you want the last element : " + citiesMore[citiesMore.length-1]);
 		
-		
+		count = citiesMore[0].length(); 
+		System.out.println("The size of the first element of citiesMore : "+ count);
+
+// Default Values of array data types
+		int [] arr1 = new int[3];
+// for int : 0
+// for double : 0.0, String : null		
+// if you want to print out an array we Arrays.toString from Arrays class		
+		System.out.println(Arrays.toString(arr1)); // [0, 0, 0]
 		
 		
 	}
