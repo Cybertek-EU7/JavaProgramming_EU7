@@ -21,6 +21,11 @@ ArrayList: 	part of Collection, internally uses Array(keeps creating new Arrays-
 Wrapper Class: the need for this Wrapper class is: Collections and Maps only hold non-primitive
 			second: this class come with useful methods.
 			turns our primitive data types into objects 
+	int ---> Integer
+	double -----> Double		
+			
+			
+			
 
 isAnagram Method Algorithm:
 1. I have two words, see if they anagram
