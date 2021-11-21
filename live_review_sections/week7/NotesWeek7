@@ -1,0 +1,28 @@
+Data very important part of Tester's work life
+Data---> BackEnd (Database+API) + FrontEnd (WebBrowsers)
+
+3 Data Structures that comes with JAVA:
+	Arrays (primitive data type+non-primitive(objects))
+	Collections---ArrayList, List, Set, Vector....
+	Maps (non-primitive , key-value)
+	
+Array: 	part of the Data Structure
+		fixed size
+		support primitive(int,double,char...) + non-primitive(Integer, Double, Character,String)
+		ordered (it has index)
+		can be multi-dimensional
+
+ArrayList: 	part of Collection, internally uses Array(keeps creating new Arrays--Slow)
+			size is not fixed
+			supports only non-primitive 
+			ordered (it has index)
+			can NOT be multi-dimensional
+
+Wrapper Class: the need for this Wrapper class is: Collections and Maps only hold non-primitive
+			second: this class come with useful methods.
+				
+			
+			
+			
+			
+			
