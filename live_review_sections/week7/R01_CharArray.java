@@ -14,7 +14,7 @@ System.out.println();
 	
 	// what are Strings ? sequence of chars, collection of chars	
 	
-	String word = new String (letters);
+	String word = new String (letters);// it will make more sense when you learn constructors
 	System.out.println(word);
 	
 	String word2 = "silent";
@@ -22,6 +22,14 @@ System.out.println();
 	char [] letters2 = word2.toCharArray();
 	
 	System.out.println(Arrays.toString(letters2));
+	
+	for(char each : word2.toCharArray() ) {
+		System.out.print(each + " ");
+	}
+	
+	
+	
+	
 	
 }
 	
