@@ -9,5 +9,12 @@ public class Products {
 		name = n;
 		price = d;
 	}
+
+	
+	public String toString() {
+		return "Products [name=" + name + ", price=" + price + "]";
+	}
+	
+	
 	
 }
