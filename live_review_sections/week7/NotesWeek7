@@ -12,6 +12,24 @@ Array: 	part of the Data Structure
 		ordered (it has index)
 		can be multi-dimensional
 
+single dimensional arrays : to store elements
+
+multi-dimesional arrays : to store arrays
+	
+		N dimensional array contains (N-1) dimensional array
+			
+				2D array : contains 1D arrays
+				arr2D = {{1,2,3},{4,5,6},{7,8,9}}
+				reach an element  [index of 1D array][index of element]--> 8: [2][1]
+				
+				3D array: contains 2D arrays
+				arr3D = {
+						{{1,2,3},{4,5,6},{7,8,9}} , 
+						{{3,4,7},{4,3},{9,4}}  
+						}
+				[index of 2D array][index of 1D array][index element]........->8:[0][2][1]
+
+
 ArrayList: 	part of Collection, internally uses Array(keeps creating new Arrays--Slow)
 			size is not fixed
 			supports only non-primitive 
