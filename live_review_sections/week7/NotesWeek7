@@ -32,7 +32,7 @@ multi-dimesional arrays : to store arrays
 
 ArrayList: 	part of Collection, internally uses Array(keeps creating new Arrays--Slow)
 			size is not fixed
-			supports only non-primitive 
+			supports only non-primitive  (can hold objects) Can we put our own custom made objects?
 			ordered (it has index)
 	****   can NOT be multi-dimensional******
 			it keeps duplicate values (Set: this one allow duplicate)
