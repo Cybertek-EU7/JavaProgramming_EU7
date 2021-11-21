@@ -16,7 +16,8 @@ public static void main(String[] args) {
 	
 	String word = "listen";
 	for(char each: word.toCharArray()) {
-		alphabet[each-97]=alphabet[each-97]+1;
+		alphabet[each-97]=alphabet[each-97]+1; // for letter 'c': 99  
+		// alphabet[2]=alphabet[2]+1
 	}
 	System.out.println(Arrays.toString(alphabet));
 	
@@ -25,6 +26,10 @@ public static void main(String[] args) {
 		alphabet[each-97]=alphabet[each-97]-1;
 	}
 	System.out.println(Arrays.toString(alphabet));
+	
+	int [] check = new int[26];
+	
+	System.out.println("Are my words angaram : " + Arrays.equals(alphabet, check));
 	
 }
 }

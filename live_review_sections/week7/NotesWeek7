@@ -20,8 +20,30 @@ ArrayList: 	part of Collection, internally uses Array(keeps creating new Arrays-
 
 Wrapper Class: the need for this Wrapper class is: Collections and Maps only hold non-primitive
 			second: this class come with useful methods.
-				
+			turns our primitive data types into objects 
+
+isAnagram Method Algorithm:
+1. I have two words, see if they anagram
+2. takes each char, and uses it's Decimal value, so I can create an array of integers
+3. I have only one int array, for the first word, I want to  add value of '1' to my array
+4. For the second word, I want to delete value of '1' from the same array 
+5. At the end if my int array stays empty, this means that my words are anagram				
 			
+Arrays Utility Class
+Arrays.toString method : for printing 1D arrays
+Arrays.deepToString : for printing 2D arrays
+Arrays.equal : for check equality of arrays
+Arrays.sort : sorting the Arrays
+Arrays.binarySearch
+Arrays.copyOf 
+
+
+
+
+
+
+
+
 			
 			
 			

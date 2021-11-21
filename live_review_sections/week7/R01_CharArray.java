@@ -19,7 +19,7 @@ System.out.println();
 	
 	String word2 = "silent";
 	
-	char [] letters2 = word2.toCharArray();
+	char [] letters2 = word2.toCharArray(); // String method, turns string into array of chars
 	
 	System.out.println(Arrays.toString(letters2));
 	
