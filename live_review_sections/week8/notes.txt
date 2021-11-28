@@ -104,6 +104,9 @@ Encapsulation --- Data Hiding (as a person from Human class, I will hide my weak
 	
 	The purpose of the example: to show class relations
 	
+    From TestEnvironment Class is our main blueprint, 
+	and it call and contain Browser Class and OS Class
+	
 	
 	
 	
