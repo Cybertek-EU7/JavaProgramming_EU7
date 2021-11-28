@@ -13,7 +13,7 @@ public class Login {
 		System.out.println(credentials.getUserName());
 		System.out.println(credentials.getPassWord());
 		
-credentials.setPassWord("nebuchadnezzar324");
+credentials.setPassWord("Neb&uchadnezzar324");
 
 
 System.out.println("After changing : "+ credentials.getPassWord());
