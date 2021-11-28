@@ -72,8 +72,16 @@ Employee:
 	toString()
 	
 ===========================================================================	
+item 
+	attributes : name, unitPrice, quantity
 	
+	add a constructor to initiliaze all fields
 	
+	toString()	
+	calCost(): calculates total price: unitPrice*quantity
+
+	
+=========================================================================	
 	
 Encapsulation
 	- intro to OOP
