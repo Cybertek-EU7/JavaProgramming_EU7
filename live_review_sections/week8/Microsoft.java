@@ -33,6 +33,7 @@ public class Microsoft {
 		if(each.salary>maxSalary) {
 			maxSalary = each.salary;
 			personWhoMakesMax = each.name;
+			System.out.println(each.companyName);
 		}
 		if(each.salary<minSalary) {
 			minSalary = each.salary;

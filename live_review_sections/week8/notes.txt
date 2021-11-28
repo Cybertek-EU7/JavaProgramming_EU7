@@ -55,6 +55,14 @@ returnType: data Type
 				
 	Objects : instance (example) of the classes	
 	
+	Variable Types: (local variable, instance variable : each object has its own copy, 
+	static : every object has same value) 
+	
+	this keyword: In case of using the same name, It References the variable that refers to the current object.
+	
+	this()  keyword: to call other constructors , chaining 
+	has to be at the first line
+	
 ================================================
 Employee:
 	attribute : name, ID, jobTitle, salary

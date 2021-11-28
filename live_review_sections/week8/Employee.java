@@ -2,9 +2,11 @@ package week8;
 
 public class Employee {
 
-	 public String name,jobTitle;
+	 public String name,jobTitle;   
 	 public int ID;
-	 public double salary;
+	 public double salary;  // instance
+	 
+	 public static String companyName = "Microsoft"; // static variable, same copy for all my objects
 
 	 public Employee(String name, String jobTitle, int iD, double salary) {
 		this.name = name;
