@@ -8,16 +8,17 @@ public class ConstructorsPractice {
  */
 
 	public ConstructorsPractice() {
+		this(10);
 		System.out.println("a");
 	}
 	
 	public ConstructorsPractice(int num) { // call no arg constructor from here
-		this();
+	
 		System.out.println("b");
 	}
 	
 	public ConstructorsPractice(String str) {
-		this(10);
+		this();
 		System.out.println("c");
 	}
 	
