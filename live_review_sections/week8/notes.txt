@@ -12,6 +12,16 @@ Warp Up Task:
 
 
 	- Collections Utility (similar to Arrays utility)
+	It is a utility class that can be used with ArrayList Collection
+	useful methods:
+	- sort,
+	- frequency,
+	- min,max
+	- replaceAll,
+	- shuffle
+	........
+	
+	
 Constructor
 	- Class/Objects
 Encapsulation
