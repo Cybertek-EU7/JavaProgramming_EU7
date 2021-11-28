@@ -24,7 +24,49 @@ Warp Up Task:
 	
 	
 Constructor
+	methods:
+	Access Modifier Specifier returnType methodName (parameter){
+			statements; -----mandatory
+			}
+			
+Access Modifier: public, private ......default, protected
+Specifier: final, static 
+returnType: data Type
+
+		execution of methods: when you call the method
+		
+		
+	constructors: special method that we use instanciate an object
+		
+		Access Modifier ClassName(){   ------> Default Constructor
+		}	
+	
+		Access Modifier ClassName(some parameters){   ------> Constructors with parameters (with arguments)
+		}	
+
+		execution of constructors : happens when we acreate/instanciate an object with "new" key word
+		**** every class MUST HAVE it.
+		
 	- Class/Objects
+	
+	Class is blueprint -- template
+				* attributes (values that define the object)  -- Variables
+				* actions (what that object is doing)   -- Methods
+				
+	Objects : instance (example) of the classes	
+	
+================================================
+Employee:
+	attribute : name, ID, jobTitle, salary
+	
+	add a constructor to initialize all the fields (attributes)	 4 parameter constructor		
+	
+	toString()
+	
+===========================================================================	
+	
+	
+	
 Encapsulation
 	- intro to OOP
 
