@@ -1,0 +1,20 @@
+ArrayList
+	ordered collection of data (works with index)
+	unlike Arrays, resizable
+	only accepts objects
+	Wrapper class data types 
+	internally it uses Arrays
+
+Warp Up Task: 
+	create a method, listGenerator(), 
+	when I call this method, it will prompt the user to enter a number
+	And it will ask again?, if the answer NO, then will return an ArrayList 		
+
+
+	- Collections Utility (similar to Arrays utility)
+Constructor
+	- Class/Objects
+Encapsulation
+	- intro to OOP
+
+ 
