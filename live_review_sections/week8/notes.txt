@@ -100,7 +100,9 @@ Encapsulation --- Data Hiding (as a person from Human class, I will hide my weak
 	    * Polymorphism (multi-many shapes)
 ========================================================================================	    
 	
+	As a Tester when you write test cases: Test Environment (QA,DEV....)(Operating System)(Browser Type)
 	
+	The purpose of the example: to show class relations
 	
 	
 	
