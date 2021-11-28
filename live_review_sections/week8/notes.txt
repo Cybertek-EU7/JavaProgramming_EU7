@@ -22,8 +22,9 @@ Warp Up Task:
 	- shuffle
 	........
 	
-	
+-----------------------------
 Constructor
+-----------------------
 	methods:
 	Access Modifier Specifier returnType methodName (parameter){
 			statements; -----mandatory
@@ -47,7 +48,7 @@ returnType: data Type
 		execution of constructors : happens when we acreate/instanciate an object with "new" key word
 		**** every class MUST HAVE it.
 		
-	- Class/Objects
+***	- Class/Objects***********
 	
 	Class is blueprint -- template
 				* attributes (values that define the object)  -- Variables
@@ -83,7 +84,41 @@ item
 	
 =========================================================================	
 	
-Encapsulation
+Encapsulation --- Data Hiding (as a person from Human class, I will hide my weakness from outside world)
+                            
+
+	First step: declare your instance variable private-- not reachable from other classes
+	
+	Second step: create setters and getters methods  
+				 implementing conditions
+	
+	
 	- intro to OOP
+	    * Encapsulation 
+	    * Inheritance
+	    * Abstraction
+	    * Polymorphism (multi-many shapes)
+========================================================================================	    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
  
