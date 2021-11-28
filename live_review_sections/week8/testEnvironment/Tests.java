@@ -30,7 +30,11 @@ public class Tests {
 	
 	ArrayList<TestEnvironment> tests = new ArrayList<>();
 	
+	tests.add(testOne);
+	tests.add(testTwo);
 	
+	System.out.println(tests.get(0).toString());
+	System.out.println(tests.get(1).browser.getBrowserType());
 		
 	}
 }
