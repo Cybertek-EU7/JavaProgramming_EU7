@@ -15,6 +15,7 @@ Warp Up Task:
 	It is a utility class that can be used with ArrayList Collection
 	useful methods:
 	- sort,
+	- reverse,
 	- frequency,
 	- min,max
 	- replaceAll,
