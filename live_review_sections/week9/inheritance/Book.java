@@ -6,4 +6,5 @@ public class Book {
 	String type;
 	String author;
 	double price;
+	
 }
