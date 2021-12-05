@@ -1,0 +1,11 @@
+static methods:
+	Character.isDigit(10)
+	can be called using Class Names, it belongs to the class
+	can be called using object name
+
+static methods vs instance methods
+1) instance methods can be called only using the object name
+2) static methods can ONLY reach static variables or methods
+instance methods can call both static and instance	
+	
+	Instance variables or methods: THese belongs to objects created

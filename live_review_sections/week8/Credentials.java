@@ -27,6 +27,7 @@ public class Credentials {
 	boolean special = false;
 	
 	passwordSize = (passWord.length()>8)? true : false;
+	
 	for(char eachLetter : passWord.toCharArray() ) {
 		if (Character.isUpperCase(eachLetter)) {
 			uppercase = true;
