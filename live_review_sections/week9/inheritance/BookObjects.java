@@ -13,6 +13,10 @@ public class BookObjects {
 		audioBook.lentgh = 15;
 		audioBook.listen();
 		
+		Ebook ebook = new Ebook();
+		ebook.author = "Yahya Kemal Beyatli";
+		ebook.title = "Kendi Gokkubbemiz Altinda";
+		ebook.readBook();
 
 	}
 
