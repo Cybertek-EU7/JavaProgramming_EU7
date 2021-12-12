@@ -13,7 +13,7 @@ public class Developer extends Employee {
 	}
 	
 	public void fixBugs() {
-		System.out.println(getName()+" is crying about bug");
+		System.out.println(getName()+" is fixing the bug like men");
 	}
 
 	
