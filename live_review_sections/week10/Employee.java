@@ -15,6 +15,8 @@ public class Employee {
 		setSalary(salary);
 	}
 
+	
+	
 	public String getName() {
 		return name;
 	}
@@ -65,7 +67,9 @@ public class Employee {
 	}
 	
 	
-	
+	public void work() {
+		System.out.println(" is working");
+	}
 	
 	
 }
