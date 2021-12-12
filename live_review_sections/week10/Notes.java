@@ -72,6 +72,17 @@ AmazonInc  class to test our objects
    Does not care about return type)
  
  
+ WebDriver
+ 		get()
+ 		close()
+ 
+ ChromeDriver          creating a chrome driver object
+ 		get(URL)  : opens in chrome browser
+ 
+ FireFoxDriver         creating a firefox driver object
+ 		get(URL) : opens in firefox browser
+ 		
+ 		
  
  
  */
