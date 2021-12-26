@@ -14,7 +14,7 @@ public class ParkingLot {
 		BMW M5 = new BMW("M5", "BMW", "Black", 2021);
 		
 		M5.start();
-		System.out.println(M5.toString());
+		System.out.println(M5);
 		
 		
 
