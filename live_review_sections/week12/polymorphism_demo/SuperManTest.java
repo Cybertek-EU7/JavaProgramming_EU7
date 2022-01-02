@@ -18,6 +18,12 @@ public class SuperManTest {
 		((Father)spMan2).feedKid();
 		
 		
+		Superman spMan3 = new Superman();
+		spMan3.feedKid();
+		spMan3.work("DevOps");
+		
+		
+		
 		
 		
 		
