@@ -43,6 +43,12 @@ public class ElectricCarTest {
 		System.out.println(fusion.toString());
 		System.out.println(semi.toString());
 		System.out.println(truck.toString());
+		
+		Electric.methodB(); // static method with interface name
+		
+		Tesla2 teslaObject = new Tesla2();
+		System.out.println(teslaObject instanceof Electric);
+		teslaObject.methodA(); // I am calling default method of Interface
 
 	}
 
