@@ -29,5 +29,9 @@ public class ChromeDriver implements WebDriver{
 	public String getTitle() {
 		return "ChromeDriver: EU7 is the Greatest";
 	}
+	
+	public void uniqueMethodOfChrome() {
+		System.out.println("I am the problem child");
+	}
 
 }

@@ -4,9 +4,9 @@ public class UIAutomationTest {
 
 	public static void main(String[] args) {
 		
-//		WebDriver driver = new ChromeDriver(); // polymorphic way
+		WebDriver driver =  new ChromeDriver(); // polymorphic way
 	
-// 	WebDriver driver = new WebDriver() ; NOT possible
+ 	// WebDriver driver = new WebDriver() ; NOT possible
 	ChromeDriver driver1 = new ChromeDriver();	
 	
 	FirefoxDriver driver2 = new FirefoxDriver();
@@ -23,6 +23,17 @@ public class UIAutomationTest {
 	System.out.println(driver2.getTitle());
 	driver2.quit();
 	
+	System.out.println("==============Beauty of Polymorphism=================");	
+		driver.get("http://practice.cybertekschool.com/");
+		driver.quit();
+		
+		driver = new FirefoxDriver();
+		driver.get("http://practice.cybertekschool.com/");
+		driver.quit();
+		
+		driver = new ChromeDriver();
+		
+		((ChromeDriver)driver).uniqueMethodOfChrome();
 		
 		
 	}
