@@ -2,31 +2,32 @@ package week12.interface_demo;
 
 public class ChromeDriver implements WebDriver{
 
-	
+	public ChromeDriver() {
+		System.out.println("Launching Chrome Browser");
+	}
 	
 	
 	@Override
 	public void get(String url) {
-		// TODO Auto-generated method stub
+		System.out.println("ChromeDriver -- navigate to "+ url);
 		
 	}
 
 	@Override
 	public void findElement(String locator) {
-		// TODO Auto-generated method stub
+		System.out.println("ChromeDriver--- locating element by "+locator);
 		
 	}
 
 	@Override
 	public void quit() {
-		// TODO Auto-generated method stub
+		System.out.println("ChromeDriver -- ending/killing all the opened sessions");
 		
 	}
 
 	@Override
 	public String getTitle() {
-		// TODO Auto-generated method stub
-		return null;
+		return "ChromeDriver: EU7 is the Greatest";
 	}
 
 }
