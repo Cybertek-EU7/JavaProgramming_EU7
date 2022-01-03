@@ -11,7 +11,6 @@ public class Task30_EvenOddNumber {
 		}else {
 			System.out.println("Number:" + number + " is odd number");
 		}
-
 	}
 
 }
