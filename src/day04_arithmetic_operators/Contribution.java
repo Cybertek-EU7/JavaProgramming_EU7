@@ -22,12 +22,9 @@ public class Contribution {
 		contribution=monthlyPay*0.08;
 		System.out.println("8 percent is $ " + contribution + " per month.");
 		
-		//Calculate and display 10% constribution
+		//Calculate and display 10% contribution
 		contribution=monthlyPay*0.10;
 		System.out.println("10 percent is $ " + contribution + " per month.");
-		
-		
-
 	}
 
 }

@@ -24,10 +24,6 @@ public class AdditionConcat {
 			System.out.println("Cybertek"+2+0+5); //Cybertek205
 			System.out.println(2+0+5+"Cybertek"+2+0+5); //7Cybertek205
 			System.out.println(2+0+5+"Cybertek"+(2+0+1));
-			
-			
-			
-			
 	}
 
 }

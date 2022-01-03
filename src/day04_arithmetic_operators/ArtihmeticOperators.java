@@ -53,20 +53,5 @@ public class ArtihmeticOperators {
 		//Remainder %
 		System.out.println(10%2);
 		System.out.println(9%2);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
-
 }

@@ -7,26 +7,6 @@ public class ConstantVariables {
 		final double PI = 3.14;
 		final String BIRTHDAY="12\12\1992";
 		final int CAPACITY=50;
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		
-		
-		
-	
-		
-		
-		
-		
-		
 	}
 
 }

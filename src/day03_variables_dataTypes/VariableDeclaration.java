@@ -30,20 +30,6 @@ public class VariableDeclaration {
 		
 		System.out.println("My Number is " + accountnumber);
 		
-		//Test case - > check the balances with 100 different account numbers 
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
+		//Test case - > check the balances with 100 different account numbers
 	}
-
 }

@@ -17,8 +17,6 @@ public class Discount {
 		System.out.println("Regular Price: $" + regularPrice);
 		System.out.println("Discount Amount: $" + discount);
 		System.out.println("Sale Price: $" + salesPrice);
-		
 
 	}
-
 }

@@ -25,15 +25,6 @@ public class CreatingVariables {
 		int num;String value;
 		num=5;
 		System.out.println(num);
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }

@@ -9,12 +9,5 @@ public class Task18_PrepostDecrementIncrement {
 		
 		System.out.println(x);
 		System.out.println(y);
-		
-		
-		
-		
-		
-
 	}
-
 }
