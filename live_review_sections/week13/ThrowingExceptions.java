@@ -10,7 +10,7 @@ public class ThrowingExceptions {
 		// throw indexError;
 		
 		
-		String userName = "e";
+		String userName = "";
 		if(userName.isEmpty()) {
 			throw indexError;
 		}
