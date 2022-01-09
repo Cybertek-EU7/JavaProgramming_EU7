@@ -20,8 +20,7 @@ public class ThrowingExceptions {
 		try {
 		System.out.println(turkeyCitizenshipNumber.charAt(10));
 		}catch(IndexOutOfBoundsException exp) {
-			exp.getCause();
-			exp.getClass().getSimpleName();
+			System.out.println(exp.getMessage());
 		}
 		
 		
