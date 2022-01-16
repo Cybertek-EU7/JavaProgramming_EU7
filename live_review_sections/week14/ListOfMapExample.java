@@ -32,15 +32,21 @@ public class ListOfMapExample {
 		employeesList.add(empOneData);
 		employeesList.add(empTwoData);
 		
+		// employeesList.add(new LinkedHashMap<>());
+		
 		System.out.println(employeesList);
 		
 		for(Map<String,String> emp : employeesList) {
 			if(emp.get("EmpName").equals("Mike")) {
 				System.out.println(emp.get("Salary"));
+			//	employeesList.remove(emp);
 			}
 		}
 		
+		System.out.println(employeesList);
 		
+		
+		// You have finished JAVA BRAVO to Everybody
 		
 	}
 	
