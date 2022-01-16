@@ -39,8 +39,7 @@ public class ListExamples {
 		}
 		System.out.println("listTwo after sorting : "+listTwo);
 		
-		
+	}
 
 	}
 
-}
