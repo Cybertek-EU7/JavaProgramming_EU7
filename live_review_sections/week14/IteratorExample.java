@@ -46,6 +46,21 @@ public class IteratorExample {
 	
 	System.out.println(nums);
 	
+	//===========================================
+	System.out.println("with for each loop");
+	
+	List<Integer> numsTwo = new ArrayList<>();	
+	
+	numsTwo.addAll(Arrays.asList(50,100,10,15,1150,5000));
+	int i = 0;
+	for(int val : numsTwo) {
+		if(val>=100) {
+			numsTwo.remove(i);
+		}
+		i++;
+	}     // java.util.ConcurrentModificationException
+	
+	
 	
 	}
 
