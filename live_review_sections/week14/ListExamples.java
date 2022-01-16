@@ -32,8 +32,11 @@ public class ListExamples {
 		// iteration with Stack 
 		
 		// Can I sort the list with Collections.sort method?
-		// I can not sort it if 
+		// I can not sort it if it has null values
+		if(!listTwo.contains(null)) 
+		{
 		Collections.sort(listTwo);
+		}
 		System.out.println("listTwo after sorting : "+listTwo);
 		
 		
