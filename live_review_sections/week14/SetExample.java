@@ -17,8 +17,22 @@ public class SetExample {
 		
 // Treeset : does not accept null, sorts the list, no duplicates		
 		Set<Integer> setThree = new TreeSet<>();
-		setThree.addAll(Arrays.asList(100,1,2,8,99,100,null,null));
+		setThree.addAll(Arrays.asList(100,1,2,8,99,100));
 		System.out.println(setThree);
+		
+// if I want to use .sort method with  HashSet, can I use it?
+//	try {
+//		Collections.sort(setTwo); // compiler error
+//	}catch(Exception e) {
+//		
+//	}
+	/*	
+		Collections.sort(setThree);
+	In order to use .sort method our class has to implement Comparable interface
+	sort method is using compareTo method 
+	*/
+	
+		
 	}
 
 }
