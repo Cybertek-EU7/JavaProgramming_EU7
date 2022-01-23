@@ -21,14 +21,7 @@ public class TypeCasting {
 		
 		b=(byte)d;
 		System.out.println("d = " + d + " b = " + b);
-		
-		
-		
-		
-		
-		
-		
-		 
+
 	}
 
 }

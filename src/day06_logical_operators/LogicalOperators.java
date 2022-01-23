@@ -26,11 +26,6 @@ public class LogicalOperators {
 		
 		System.out.println("res5 = " + res5);
 		System.out.println("res6 = " + res6);
-		
-		
-		
-		
-
 	}
 
 }

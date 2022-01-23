@@ -21,16 +21,6 @@ public class Wages {
 		totalWage=regularWage+overtimeWages;
 		
 		System.out.println("Wages for this week are $ " + totalWage);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }

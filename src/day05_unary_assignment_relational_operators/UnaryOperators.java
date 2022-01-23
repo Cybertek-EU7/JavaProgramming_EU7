@@ -24,12 +24,7 @@ public class UnaryOperators {
 		
 		System.out.println(--j);
 		System.out.println();
-		
-		
-		
-		
-		
-		
+
 		--j; // same as j=j-1
 		
 		System.out.println("i = " + i);
@@ -45,14 +40,6 @@ public class UnaryOperators {
 		//res  =  11 + 3
 		//i    = 11 - 12
 		//j    =  4 - 3
-		
-		
-		
-		
-		
-		
-		
-	}
-	
 
+	}
 }

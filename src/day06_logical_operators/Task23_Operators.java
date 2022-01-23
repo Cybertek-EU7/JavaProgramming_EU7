@@ -11,9 +11,7 @@ public class Task23_Operators {
 		
 		double remainder = res%40;
 		
-		System.out.println("Ramaining total is equal to 20 or less? - " + (remainder<=20));
-		
-		
+		System.out.println("Remaining total is equal to 20 or less? - " + (remainder<=20));
 
 	}
 
